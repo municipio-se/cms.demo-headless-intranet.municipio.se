@@ -1,6 +1,6 @@
 {
-  "name": "municipio/municipio-boilerplate-headless",
-  "description": "Boilerplate for a headless setup of Wordpress with Municipio",
+  "name": "municipio/headless-intranet-demo-cms",
+  "description": "Backend for a headless intranet with Wordpress and Municipio",
   "license": "MIT",
   "authors": [
     {
