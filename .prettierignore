@@ -4,6 +4,10 @@ package-lock.json
 
 /wp-content/*
 
+# MU Plugins
+!/wp-content/mu-plugins
+/wp-content/mu-plugins/*/
+
 # Plugins
 !/wp-content/plugins
 /wp-content/plugins/*
