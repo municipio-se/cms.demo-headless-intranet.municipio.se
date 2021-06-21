@@ -32,10 +32,10 @@
     mem "^8.0.0"
     php-parser "3.0.2"
 
-"@whitespace/flightplan@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@whitespace/flightplan/-/flightplan-2.6.0.tgz#ffa68e12c6c573dc5b3d5896a2db31eaea4704c2"
-  integrity sha512-SCWIrxfpc5RszWKJrKZQLdCzyoi1VFIoJrKziMfsShCQCpkr/6HHsRck8jni6PjfW7nFSHHJ29WgI4uCK1/C8Q==
+"@whitespace/flightplan@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@whitespace/flightplan/-/flightplan-2.7.0.tgz#0b5c60a8d28e2739a18275f71d7a8827336d7c20"
+  integrity sha512-+vpHWtTe9hMEMBV4mZocuHP1ohI9Md7HlFx9ydoW3IDe8eXk4bU0NUG7ZgoxzQo1ftBUosffeVh7mRIdQ92VnA==
   dependencies:
     fast-glob "^3.2.5"
     lodash "^4.17.21"

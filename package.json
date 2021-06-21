@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.16.1",
-    "@whitespace/flightplan": "^2.6.0",
+    "@whitespace/flightplan": "^2.7.0",
     "flightplan": "^0.6.20",
     "prettier": "^2.2.1"
   }
