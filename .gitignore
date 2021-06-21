@@ -1,0 +1,42 @@
+# Wordpress mu-plugins
+/wp-content/mu-plugins/*/
+
+# Wordpress plugins
+/wp-content/plugins/*
+
+# Wordpress themes
+/wp-content/themes/*
+# !/wp-content/themes/mytheme
+
+# Wordpress uploads
+/wp-content/uploads/*
+
+# Wordpress config
+/config/database.php
+/config/salts.php
+/config/cache.php
+/config/developer.php
+/config/multisite.php
+/config/plugins.php
+
+# Env
+.env
+
+# Vendor directories
+/vendor
+/wp
+
+# Operating system files
+.DS_Store
+
+#phpintel
+.phpintel
+
+# Node
+node_modules
+
+# Yarn
+package-lock.json
+
+# Logs
+*.log

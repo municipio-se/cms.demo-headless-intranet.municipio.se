@@ -1,0 +1,69 @@
+{
+  "name": "municipio/municipio-boilerplate-headless",
+  "description": "Boilerplate for a headless setup of Wordpress with Municipio",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Whitespace Dev",
+      "email": "code@whitespace.se"
+    }
+  ],
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.9.5",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^5.0"
+        }
+      }
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "municipio/municipio-bundle-headless": "^6",
+    "pristas-peter/wp-graphql-gutenberg": "^0.3.8",
+    "roots/wordpress": "^5.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "wp-content/mu-plugins/{$name}/": [
+        "helsingborg-stad/modularity",
+        "municipio/modularity-graphql",
+        "pristas-peter/wp-graphql-gutenberg",
+        "pristas-peter/wp-graphql-gutenberg-acf",
+        "whitespace-se/wordpress-plugin-gatsby",
+        "whitespace-se/wordpress-plugin-headless-cms",
+        "whitespace-se/wordpress-plugin-wp-graphql-extras",
+        "wp-graphql/wp-graphql-acf",
+        "wp-graphql/wp-graphql"
+      ]
+    },
+    "wordpress-install-dir": "wp"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "yarn install",
+      "git init",
+      "git add -A",
+      "git commit -m'init: create project using municipio/municipio-boilerplate-headless'"
+    ]
+  }
+}
