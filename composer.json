@@ -40,7 +40,6 @@
   "require": {
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "municipio/municipio-bundle-headless": "^6",
-    "pristas-peter/wp-graphql-gutenberg": "^0.3.8",
     "roots/wordpress": "^5.0"
   },
   "extra": {
