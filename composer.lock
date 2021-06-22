@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a04c2f41e03166237092b409eb7647ca",
+    "content-hash": "ec199f584191b4dde6203292c6afa34d",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -21,16 +21,16 @@
         },
         {
             "name": "aristath/kirki",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kirki-framework/kirki.git",
-                "reference": "b678315bc09f1fd782e809dd5b2ce0647a6770ae"
+                "reference": "0f9d24437665f6d5664da4e12bb4f0ae410815e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kirki-framework/kirki/zipball/b678315bc09f1fd782e809dd5b2ce0647a6770ae",
-                "reference": "b678315bc09f1fd782e809dd5b2ce0647a6770ae",
+                "url": "https://api.github.com/repos/kirki-framework/kirki/zipball/0f9d24437665f6d5664da4e12bb4f0ae410815e4",
+                "reference": "0f9d24437665f6d5664da4e12bb4f0ae410815e4",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
             ],
             "support": {
                 "issues": "https://github.com/kirki-framework/kirki/issues",
-                "source": "https://github.com/kirki-framework/kirki/tree/3.1.6"
+                "source": "https://github.com/kirki-framework/kirki/tree/3.1.7"
             },
             "funding": [
                 {
@@ -82,7 +82,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-07T12:09:11+00:00"
+            "time": "2021-06-21T13:48:36+00:00"
         },
         {
             "name": "composer/installers",
